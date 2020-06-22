@@ -1,4 +1,4 @@
-package com.syz.design.strategy.designMode.proxy.generalTemplate;
+package com.syz.designMode.proxy.generalTemplate;
 
 /**
  * @author syz

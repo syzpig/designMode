@@ -1,4 +1,4 @@
-package com.syz.design.strategy.designMode.proxy.JDKproxy;
+package com.syz.designMode.proxy.JDKproxy;
 /**
  *@description 真实主题，被代理对象
  *@date 2020/6/22 10:55

@@ -1,4 +1,4 @@
-package com.syz.design.strategy.designMode;
+package com.syz.designMode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

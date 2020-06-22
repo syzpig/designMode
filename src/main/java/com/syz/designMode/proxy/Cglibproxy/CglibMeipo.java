@@ -1,4 +1,4 @@
-package com.syz.design.strategy.designMode.proxy.Cglibproxy;
+package com.syz.designMode.proxy.Cglibproxy;
 
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;

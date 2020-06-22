@@ -1,4 +1,4 @@
-package com.syz.design.strategy.designMode.proxy.Cglibproxy;
+package com.syz.designMode.proxy.Cglibproxy;
 /**
  *@description ${description}
  *@date 2020/6/22 14:02

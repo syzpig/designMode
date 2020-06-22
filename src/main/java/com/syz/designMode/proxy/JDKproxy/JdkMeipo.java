@@ -1,4 +1,4 @@
-package com.syz.design.strategy.designMode.proxy.JDKproxy;
+package com.syz.designMode.proxy.JDKproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
