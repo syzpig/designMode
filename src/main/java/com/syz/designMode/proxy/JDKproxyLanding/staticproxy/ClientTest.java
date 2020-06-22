@@ -1,4 +1,4 @@
-package com.syz.designMode.proxy.JDKproxyLanding;
+package com.syz.designMode.proxy.JDKproxyLanding.staticproxy;
 
 public class ClientTest {
     public static void main(String[] args) {

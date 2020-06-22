@@ -1,4 +1,4 @@
-package com.syz.designMode.proxy.JDKproxyLanding;
+package com.syz.designMode.proxy.JDKproxyLanding.staticproxy;
 /**
  *@description 支付日志类  这个是想给我们的支付加一个支付日志
  *@date 2020/6/22 17:14

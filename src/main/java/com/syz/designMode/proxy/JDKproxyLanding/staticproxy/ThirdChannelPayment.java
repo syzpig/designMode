@@ -1,4 +1,4 @@
-package com.syz.designMode.proxy.JDKproxyLanding;
+package com.syz.designMode.proxy.JDKproxyLanding.staticproxy;
 
 /**
  * @author syz
