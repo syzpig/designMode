@@ -1,5 +1,6 @@
 package com.syz.designMode.proxy.JDKproxyLanding.staticproxy;
 
+import com.syz.designMode.proxy.CglibproxyLanding.CgLibPayDynamicProxy;
 import com.syz.designMode.proxy.JDKproxyLanding.jdkproxy.PayDynamicProxy;
 
 public class ClientTest {
@@ -15,12 +16,18 @@ public class ClientTest {
 
 
         //使用动态代理改造后，我们调用就会不这么调用了
-
-        Payment payment=new ThirdChannelPayment();
+         //jdk调用方式
+       /* Payment payment=new ThirdChannelPayment();  //这里实现接口因为他需要一个接口
         PayDynamicProxy payDynamicProxy=new PayDynamicProxy();
         Payment p1=(Payment) payDynamicProxy.bind(payment);//他会返回一个代理对象
-        System.out.println(p1.pay("123"));
+        System.out.println(p1.pay("syz"));*/
         //我们呢可以发现只要我们有这个代理对象，他可以帮我们代理任何的类
 
+
+        //cglib调用方式
+        ThirdChannelPayment thirdChannelPayment=new ThirdChannelPayment();//他可以不需要接口，所以可以直接使用类
+        CgLibPayDynamicProxy cgLibPayDynamicProxy=new CgLibPayDynamicProxy();
+        ThirdChannelPayment thirdChannelPayment1= (ThirdChannelPayment)  cgLibPayDynamicProxy.getInstance(thirdChannelPayment);
+        System.out.println(thirdChannelPayment1.pay("syz"));
     }
 }

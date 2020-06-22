@@ -28,7 +28,6 @@ public class PayDynamicProxy implements InvocationHandler {
         System.out.println("记录日志开始");
         Object obj=method.invoke(target,args);//这个是通过method反射去调用对应的目标对象target的方法，以及他的参数是什么
         System.out.println("记录日志结束");
-
         return obj;
     }
 }
