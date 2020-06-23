@@ -1,4 +1,4 @@
-package com.syz.designMode.strategy.busic;
+package com.syz.designMode.strategy.version2.busic;
 /**
  *@description 假如这是我们的商品
  *@date 2020/6/23 16:02

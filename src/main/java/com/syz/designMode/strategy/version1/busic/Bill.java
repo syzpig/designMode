@@ -1,6 +1,6 @@
-package com.syz.designMode.strategy.busic;
+package com.syz.designMode.strategy.version1.busic;
 
-import com.syz.designMode.strategy.PaymentMethod;
+import com.syz.designMode.strategy.version1.PaymentMethod;
 
 import java.util.ArrayList;
 import java.util.List;

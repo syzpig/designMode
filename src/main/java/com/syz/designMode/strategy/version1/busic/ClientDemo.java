@@ -1,8 +1,8 @@
-package com.syz.designMode.strategy.busic;
+package com.syz.designMode.strategy.version1.busic;
 
-import com.syz.designMode.strategy.factory.PaymentMethodFactory;
+import com.syz.designMode.strategy.version1.factory.PaymentMethodFactory;
 
-public class ClientDemo1 {
+public class ClientDemo {
     public static void main(String[] args) {
         Bill bill=new Bill();//首先初始化购物车
         //然后添加商品

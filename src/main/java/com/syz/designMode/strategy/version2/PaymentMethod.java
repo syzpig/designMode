@@ -1,4 +1,4 @@
-package com.syz.designMode.strategy;
+package com.syz.designMode.strategy.version2;
 /**
  *@description 1.首先我们需要先去定义一个接口，里面是支付方法的接口;然后我们就可以基于这个接口去扩展
  *@date 2020/6/23 15:28

@@ -1,8 +1,8 @@
-package com.syz.designMode.strategy.factory;
+package com.syz.designMode.strategy.version1.factory;
 
-import com.syz.designMode.strategy.CreditCard;
-import com.syz.designMode.strategy.DebitCard;
-import com.syz.designMode.strategy.PaymentMethod;
+import com.syz.designMode.strategy.version1.CreditCard;
+import com.syz.designMode.strategy.version1.DebitCard;
+import com.syz.designMode.strategy.version1.PaymentMethod;
 
 /**
  * @author syz
