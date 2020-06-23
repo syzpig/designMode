@@ -24,7 +24,7 @@ public abstract class Card implements PaymentMethod {
     //通常我们会是在Spring框架中使用到@PostConstruct注解 该注解的方法在整个Bean初始化中的执行顺序：
     //Constructor(构造方法) -> @Autowired(依赖注入) -> @PostConstruct(注释的方法)
     //   javaEE5引入了@PostConstruct和@PreDestroy两个作用于Servlet生命周期的注解，实现Bean初始化之前和销毁之前的自定义操作, PostConstruct 注释用于在依赖关系注入完成之后需要执行的方法上，以执行任何初始化。此方法必须在将类放入服务之前调用
-    public void init() {
+    public void init() {//这个方法写在每一个子类中也可以，就是类加载完之后，执行这个方法 https://blog.csdn.net/wo541075754/article/details/52174900
         paymentMethodMap.put(getType(), this);//在我们初始化子类的时候，他会得到之类的type同时他的value就是我们子类
 
     }
