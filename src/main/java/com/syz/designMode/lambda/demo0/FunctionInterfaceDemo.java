@@ -15,6 +15,9 @@ import java.util.function.Supplier;
  * 历史原因，不得不加一些方法来兼容整个JDK中的API，所以就需要使用default关键字来定义这样的方法
  * 2. 可以有 Object 中覆盖的方法，也就是 equals，toString，hashcode等方法。
  *
+ * 存在意义：
+ * java是面向对象的，但是为了写起来方便，需要向一个方法传递一个方法，但是实际上并不能传递方法，而是传递了只有一个抽象方法的接口的实现类的对象，这样就做到类似传递方法了，其实lanmada就是一个对象
+ *
  * 我们需要注意的是仅仅当参数是函数接口的时候才可以使用lambda表达式代替
  * */
 
@@ -22,9 +25,9 @@ public class FunctionInterfaceDemo {
 
     public static void main(String[] args) {
 //        testPredicate();
-//        testFunction();
+        testFunction();
 //        testSupplier();
-        testPredicate();
+//        testPredicate();
     }
 
 
